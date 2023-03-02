@@ -1,0 +1,317 @@
+.relative{
+     position: relative;
+}
+
+.absolute{
+     position: absolute;
+}
+
+
+.flex{
+     display: flex;
+}
+
+nav section ul li, ul{
+     display: inline-block;
+     margin: 0 10px;
+}
+
+li{
+     list-style-type: none;  
+}
+
+.align-super{
+     vertical-align: super;
+}
+
+.right-10{
+     right: 10px;
+}
+
+.bg-blue{
+     background-color: blue;
+     color: white;
+}
+
+.bg-blue:hover{
+     background-color: rgb(70, 70, 255);
+}
+
+.bg-lightblue{
+     background-color: skyblue;
+     height: 550px;
+}
+
+.button{
+     padding: 10px 14px;
+}
+
+.padding-20{
+     padding: 20px;
+}
+
+.padding-10{
+     padding: 10px;
+}
+
+.container-70{
+     width: 70%;
+     margin: auto;
+}
+
+.container-60{
+     width: 60%;
+     margin: auto;
+     margin-top: 100px;
+}
+
+h1{
+     font-size: 70px;
+     padding: 30px 0;
+}
+
+.p-intro{
+     flex-basis: 30%;
+}
+
+.foto1{
+     flex-basis: 70%;
+}
+
+.jumbo{
+     height: 400px;
+     width: 700px;
+     z-index: 1;
+}
+
+.margin-bottom30{
+     margin-bottom: 30px;
+}
+
+.margin-top30{
+     margin-top: 30px;
+}
+
+.fa-arrow-down{
+     margin-top: 60px;
+     font-size: 40px;
+}
+
+h2{
+     font-size: 30px;
+}
+
+.margin-20{
+     margin: 0 20px;
+}
+
+.space-between{
+     justify-content: space-between;
+}
+
+.col-30{
+     flex-basis: 30%;
+     border: 1px solid lightgray;
+}
+
+.card-titolo{
+     text-align: center;
+     padding: 10px 0;
+     border-bottom: 1px solid lightgray;
+}
+
+.card-body{
+     margin: 25px 20px;
+}
+
+.padding-bottom{
+     padding-bottom: 20px;
+}
+
+.hr-card{
+     width: 40px;
+     margin-bottom: 20px;
+}
+
+.fa-check{
+     color: blue;
+}
+
+.color-grey{
+     color: grey;
+}
+
+.card-large{
+     border: 1px solid lightgray;
+     margin-top: 30px;
+}
+
+.width-60{
+     width: 60%;
+}
+
+.button-right{
+     right: 20px;
+}
+
+.foto{
+     height: 500px;
+}
+
+.testo{
+     width: 40%;
+     height: 500px;
+     padding: 50px;
+}
+
+.bg-bianco{
+     border: 1px solid black;
+}
+
+.bg-bianco:hover{
+     color: grey;
+}
+
+.funzioni{
+     flex-basis: calc(100% / 3 - 2%);
+     margin-bottom: 30px;
+}
+
+.funzioni img{
+     width: 100%;
+}
+
+.wrap{
+     flex-wrap: wrap;
+}
+
+.square{
+     width: calc(100% / 3);
+     height: calc(100vw / 3);
+}
+
+.little-square{
+     width: calc(100% / 2);
+     justify-content: center;
+     align-items: center;
+}
+
+.bg-green{
+     background-color: darkseagreen;
+}
+
+.bg-purple{
+     background-color: rgb(129, 4, 70);
+}
+
+.bg-royalblue{
+     background-color: royalblue ;
+}
+
+.bg-red{
+     background-color: red ;
+}
+
+.bg-deepred{
+     background-color: firebrick ;
+}
+
+.bg-lightblue2{
+     background-color: lightblue ;
+}
+
+.bg-blue2{
+     background-color:rgb(39, 64, 139) ;
+}
+     
+.bg-yellow{
+     background-color: yellow;
+}
+
+.bg-grey{
+     background-color: rgb(238, 233, 233);
+}
+
+.loghi{
+     width: 100px;
+     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(340deg) brightness(101%) contrast(99%);;
+}
+
+.middle-logo{
+     width: 300px;
+}
+
+.hr-middle{
+     width: 100px;
+}
+
+.padding-30{
+     padding: 30px;
+}
+
+.dropbox-business{
+     height: 300px;
+     align-items: center;
+
+}
+
+.containerdb-60{
+     width: 60%;
+     margin: auto;
+}
+
+.container-db{
+     width: 60%;
+     
+}
+
+.titolo-db{
+     color: rgb(129, 4, 70);
+     
+}
+
+.container-button{
+     width: 40%;
+     
+}
+
+.bg-white{
+     background-color: white;
+}
+
+.margin-bottom40{
+     margin-bottom: 40px;
+}
+
+.fa-chevron-down{
+     right: 0;
+}
+
+.summary-p{
+     display: none;
+}
+
+.summary:hover .summary-p{
+     display: block;
+}
+
+.bg-black{
+     background-color: rgb(28, 28, 28);
+}
+
+footer section div{
+     flex-basis: calc(100% / 5);
+}
+
+.margin-bottom70{
+     padding-bottom: 70px;
+}
+
+footer section{
+     padding: 50px 0;
+     color: white;
+}
+
+footer section div ul li{
+     padding: 5px 0;
+}
